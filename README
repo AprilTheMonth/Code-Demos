@@ -1,0 +1,16 @@
+DOOM-STYLE RAYCASTING DEMO
+By April Loy
+
+This is a small tech demo demonstrating a knowledge of basic raycasting, converting an overhead 2D view of a a scene into a first-person 3D view. This works by casting a 100 rays from the player's viewpoint, and, if that ray intersects with an object, drawing a vertical line on the screen corresponding with the object's distance to the player and that objects position in the player's field of view. This is a very primative implementation, and can only handle solid-color objects with flat tops and bottoms, it also lacks collision detection. However, this is mostly just a proof of concept, and will likely not be updated in the future to add these features
+
+Controls:
+
+TOPDOWN VIEW:
+W,A,S,D - Move up, left, down, right, respectively.
+right, left arrows - rotate the characters perspective
+
+FIRST PERSON:
+W,S - Move forwards or backwards
+A,D - Look left or right
+
+press space to switch between perspectives.
